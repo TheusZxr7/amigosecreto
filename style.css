@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f1; /* tom creme suave */
+    color: #333;
+}
+
+header {
+    background-color: #2e2e2e; /* preto suave */
+    color: #f9f9f9;
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
+
+#listaPresentes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+.presente {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.presente:hover {
+    transform: scale(1.05);
+}
+
+.presente img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.presente h2 {
+    font-size: 1.2em;
+    color: #2e2e2e; /* preto suave */
+    margin: 0.5em 0;
+}
+
+.presente p {
+    font-size: 0.9em;
+    color: #555; /* cinza escuro */
+    padding: 0 1em;
+}
+
+.btn {
+    display: inline-block;
+    margin: 1em;
+    padding: 0.7em 1em;
+    background-color: #b2996e; /* tom dourado */
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #a0815c; /* dourado mais escuro */
+}
+
+.easter-egg-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em; /* Ajuste conforme necessário */
+}
+
+#easterEggBtn {
+    background-color: transparent;
+    color: #6b5b95; /* Cor que combina com o tema do site */
+    border: none;
+    font-size: 0.9em;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 0.5em;
+    transition: color 0.3s ease;
+}
+
+#easterEggBtn:hover {
+    color: #563d7c; /* Cor levemente mais escura para o hover */
+}

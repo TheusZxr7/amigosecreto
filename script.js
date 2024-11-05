@@ -1,3 +1,3 @@
 document.getElementById("easterEggBtn").addEventListener("click", function() {
-    alert("I love u Mariana Baleiro ❤");
+    alert("I LOVE U MARIANA BALEIRO ❤");
 });
